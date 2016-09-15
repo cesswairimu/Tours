@@ -15,18 +15,22 @@
     <div class="icons">
         <p class=text-center>
     <span class="fa-stack fa-lg">
-        <i class="fa fa-square-o fa-stack-2x"></i>
-        <i class="fa fa-facebook fa-stack-1x"></i>
+        <%= link_to "https://www.facebook.com" do %><i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x"></i><% end %>
     </span>
     <span class="fa-stack fa-lg">
+        <%= link_to "https://www.twitter.com" do %>
         <i class="fa fa-square-o fa-stack-2x"></i>
         <i class="fa fa-twitter fa-stack-1x"></i>
+        <% end %>
     </span>
     <span class="fa-stack fa-lg">
+        <%= link_to "https://www.instagram.com" do %>
         <i class="fa fa-instagram fa-stack-2x"></i>
+        <% end %>
     </span>
     </p>
-    </div>
+       </div>
 
     <p class="text-center"> &copy;  Lafex Tours and Safari <%= Date.today.year%>
 </p>
