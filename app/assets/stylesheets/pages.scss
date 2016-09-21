@@ -3,11 +3,15 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .item{
 
-    background-image: image-url('swet.png') ;
+    background-image: image-url('bg.jpg');
+    background-image: no-repeat ;
 
     background-attachment: fixed;
     position: relative;
     height: 500px;
+    font-size:1.5em;
+    // color: green;
+    font-family:Ubuntu;
     .text_center {
         color:black;
         bottom: 10em;
