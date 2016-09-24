@@ -1,9 +1,9 @@
 #footer{
-height: 280px;
-color:black;
-background-color:gray;
-font-family:Monospace;
-padding-bottom:0px;
+    height: 320px;
+    color:white;
+    background-color:gray;
+    font-family:Monospace;
+    padding-bottom:0px;
 
 
 }
@@ -13,13 +13,30 @@ padding-bottom:0px;
     // text-background:red;
     font-family:Times new Roman;
     font-size:2em;
-        color:red;
-    
+    color:skyblue;
+
 }
 .icons{
-   position:center;
+    position:center;
 }
 .top-bar
 {
     background-color:brown;
 }
+.top-bar, #footer {
+    border: none;
+    padding: 15px 0;
+    // color:green;
+    background: url('header-footer.png');
+
+}
+.tob-bar {
+    li   {
+    text-shadow: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}}
