@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 
@@ -30,7 +30,7 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 gem 'font-awesome-rails'
 # gem 'capistrano-rails', group: :development
-gem 'foundation-rails'
+gem 'bootstrap-sass'
 gem 'animate-rails'
 
 
