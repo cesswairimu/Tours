@@ -1,15 +1,13 @@
-<div class="top-bar">
-    <div style="font-size: 30px">
-        <div class="top-bar-right">
-<%# <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown"> %>
-            <%= link_to "Contact", "#footer" %>
-            <%= link_to "About", "#home" %>
-        </div>
-        <div class="top-bar-left">
-            <h2><%= link_to"Kisii Cabs and Taxi Hire", root_path %></h2>
-
-        </div>
+<header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+            <ul class="nav navbar-nav navbar-left">
+        <li> <%= link_to"Kisii Cabs and Taxi Hire", root_path %></li>
+        </ul>
+        <nav>
+            <ul class="nav navbar-nav navbar-right">
+                <li><%= link_to "Contact", "#footer" %>  </li>
+                <li><%= link_to "About", "#home" %> </li>
+            </ul>
+        </nav>
     </div>
-</div>
-</div>
-
+</header>
